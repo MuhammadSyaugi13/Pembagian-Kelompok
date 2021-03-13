@@ -1,0 +1,262 @@
+body{
+	background-color: #dee7ff;
+	/*background-color: #dee7ff;*/
+	color: #212121;
+}
+
+
+.containerr{
+	background-color: #fff;
+	border-radius: 5px;
+	width: 95% !important;
+	margin: 15px auto;
+	padding: 20px;
+	box-shadow: 1px	
+
+}
+
+
+body .judul h1{
+	color: #0983ff;
+}
+
+body .judul h4{
+	color: #ff961b;
+	/*text-shadow: 2px 2px 3px #0983ff;*/
+}
+
+
+.card-header{
+	background-color: #0983ff;
+	color: black;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.judul h1{
+	font-size: 60px;
+}
+
+
+
+.logo{
+	width: 190px;
+	margin-bottom: 25px;
+
+}
+
+.btn{
+	display: inline-block;
+}
+
+.about .penj {
+
+	color: black;	
+	text-shadow: 0 0 4px white;
+	/*text-align: justify;	*/
+
+}
+
+
+.about img{
+	border-radius: 15px;
+	width: 70%;
+	margin: 15px 0;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	padding: 5px 0;
+	margin-top: 15px;
+}
+
+.conten{
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: space-around;*/
+	width: 950px;
+	padding: 13px 13px;
+	margin: 25px auto;
+}
+
+.chs{
+	background-color: #005c66;
+	/*border: solid #FFC107;*/
+	color: white;
+}
+
+
+
+hr{
+	border-width: 4px;
+	border-color: #B2EBF2 !important;
+}
+
+.card{
+	display: inline-block !important;
+	margin-bottom: 25px;
+	text-align: center;
+	margin-left: 15px;
+}
+
+
+.tArea{
+	width: 100%;
+	height: 220px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	/*border-color: #0983ff;*/
+	/*border-width: 4px;*/
+	box-shadow: 1px 1px 5px #0983ff; 
+}
+
+button{
+	background-color: #FFC107;
+	padding: 5px 15px;
+	border-radius: 10px;
+	border: 2px solid #FFFFFF;
+	margin-top: 10px;
+}
+
+button:hover{
+	border: 2px solid #FFFFFF;
+	background-color: #B2EBF2;
+	transition: .2s;
+
+}
+
+.tArea:focus{
+	outline-color: #0983ff;
+
+}
+
+body .kel{
+	display: inline-block;
+	width: 200px;
+
+}
+
+.inpt{
+	width: 88%;
+	height: 35px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	border-color: ;
+	border-width: 4px;
+	box-shadow: .5px .5px 3px 2px #0983ff;
+	border-style: none;
+
+	/*border-width: 2px;*/
+}
+
+.contentt{
+	width: 60%;
+	margin: 10px auto;
+}
+
+.contentt button{
+	margin-bottom: 2px;
+
+
+}
+
+#myInput{
+	width: 100%;
+	margin-top: 0;
+	height: 500px;
+	text-align: center;
+	box-shadow: .5px .5px 3px 2px #0983ff;
+}
+
+.inpt2{
+	width: 88%;
+	height: 35px;
+	border-radius: 3px;
+	border-color: ;
+	border-width: 4px;
+	box-shadow: .5px .5px 3px 2px #0983ff;
+	border-style: none;
+
+}
+
+
+
+span{
+	font-weight: bold;
+	text-align: left !important;
+	font-size: 14px;
+}
+
+
+.war{
+	color: red;
+	font-size: 12px;
+	margin-bottom: 15px !important;
+	
+}
+
+.conten2{
+	display: none;
+}
+
+
+@media(min-width: 600px){
+
+
+	.tArea{
+		width: 100%
+	}
+
+
+}
+
+@media(max-width: 800px){
+
+
+
+	.judul h1{
+	font-size: 40px;
+	}
+
+	.contentt{
+	width: 100%;
+	margin: 10px auto;
+}
+
+	.conten{
+		/*margin: 15px 0;*/
+		width: 100%;
+		align-items: center;
+	}
+
+	.card{
+	display: inline-block !important;
+	margin-bottom: 25px;
+	/*width: 80% !important;*/
+	margin: 12px auto;
+	}
+
+}
+
+
+@media(max-width: 1150px){
+
+	.card{
+	display: inline-block !important;
+	margin-bottom: 25px;
+	/*width: 80% !important;*/
+	margin: 12px auto;
+	}
+
+	.conten{
+		/*margin: 15px 0;*/
+		width: 100%;
+		align-items: center;
+	}
+
+
+}	
